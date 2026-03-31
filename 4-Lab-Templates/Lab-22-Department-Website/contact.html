@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Dept. of Computer Applications, Mandsaur University</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Dept. of Computer Applications</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faculty.html">Faculty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== PAGE HEADER ==================== -->
+    <section class="bg-primary text-white text-center py-4">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p class="lead">We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="container my-5">
+        <div class="row">
+
+            <!-- Contact Form (Left Column) -->
+            <div class="col-md-7 mb-4">
+                <h2>Send Us a Message</h2>
+                <form onsubmit="return validateContactForm()">
+
+                    <div class="mb-3">
+                        <label for="contactName" class="form-label">Name <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="contactName" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="contactEmail" class="form-label">Email <span class="text-danger">*</span></label>
+                        <input type="email" class="form-control" id="contactEmail" placeholder="Enter your email address" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="contactPhone" class="form-label">Phone</label>
+                        <input type="tel" class="form-control" id="contactPhone" placeholder="e.g. +91-9876543210">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="contactSubject" class="form-label">Subject</label>
+                        <select class="form-select" id="contactSubject">
+                            <option value="" selected disabled>-- Select a subject --</option>
+                            <option value="Admission Inquiry">Admission Inquiry</option>
+                            <option value="Course Information">Course Information</option>
+                            <option value="Placement">Placement</option>
+                            <option value="Feedback">Feedback</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="contactMessage" class="form-label">Message <span class="text-danger">*</span></label>
+                        <textarea class="form-control" id="contactMessage" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                    <!-- Alert area for form validation messages -->
+                    <div id="formAlert" class="mt-3"></div>
+                </form>
+            </div>
+
+            <!-- Contact Info & Map (Right Column) -->
+            <div class="col-md-5 mb-4">
+                <h2>Contact Information</h2>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <strong>Address:</strong><br>
+                        Department of Computer Applications,<br>
+                        Mandsaur University,<br>
+                        Rewas-Dewda Road, Mandsaur — 458001,<br>
+                        Madhya Pradesh, India
+                    </li>
+                    <li class="mb-2">
+                        <strong>Phone:</strong> +91-7422-258386
+                    </li>
+                    <li class="mb-2">
+                        <strong>Email:</strong> hod.ca@meu.edu.in
+                    </li>
+                    <li class="mb-2">
+                        <strong>Website:</strong> <a href="https://www.meu.edu.in" target="_blank">www.meu.edu.in</a>
+                    </li>
+                </ul>
+
+                <h3 class="mt-4">Location</h3>
+                <!-- TODO: Replace the placeholder below with a Google Maps iframe.
+                     Use the coordinates: Latitude 24.0667, Longitude 75.0694
+                     Example:
+                     <iframe
+                         src="https://www.google.com/maps?q=24.0667,75.0694&z=15&output=embed"
+                         width="100%" height="300" style="border:0;"
+                         allowfullscreen="" loading="lazy"
+                         title="Mandsaur University Location">
+                     </iframe>
+                -->
+                <div class="bg-light border text-center p-5">
+                    <p class="text-muted">[ Google Maps Embed — Mandsaur University ]</p>
+                    <p class="text-muted"><small>Lat: 24.0667, Lon: 75.0694</small></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>Dept. of Computer Applications</h5>
+                    <p>&copy; 2026 Department of Computer Applications, Mandsaur University. All rights reserved.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+                        <li><a href="courses.html" class="text-white text-decoration-none">Courses</a></li>
+                        <li><a href="faculty.html" class="text-white text-decoration-none">Faculty</a></li>
+                        <li><a href="events.html" class="text-white text-decoration-none">Events</a></li>
+                        <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Contact</h5>
+                    <p>Rewas-Dewda Road, Mandsaur — 458001, MP</p>
+                    <p>
+                        <a href="#" class="text-white me-2">Facebook</a>
+                        <a href="#" class="text-white me-2">Twitter</a>
+                        <a href="#" class="text-white me-2">LinkedIn</a>
+                        <a href="#" class="text-white">YouTube</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

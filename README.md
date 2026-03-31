@@ -45,6 +45,13 @@ BCA2-Web-Technology/
 │   ├── 25BCA060T_Web_Technology.md        ← Theory syllabus & exam topics
 │   └── 25BCA060P_Web_Technology_Lab.md    ← Lab syllabus (30 experiments)
 │
+├── 📂 4-Lab-Templates/                     ← Template repos for all 30 lab experiments
+│   ├── README.md                          ← Master index of all templates
+│   ├── Lab-01-Department-Webpage/         ← Each folder = one GitHub Classroom template
+│   ├── Lab-02-Hyperlinks/
+│   ├── ... (30 folders total)
+│   └── Lab-30-Bootstrap-Form-Validation/
+│
 ├── 📂 2-Content/                           ← Main course content (45 days of lectures)
 │   │
 │   ├── 📂 0-Instructions-and-Prerequisites/  ← Setup guides (START HERE if NEW!)
@@ -75,6 +82,18 @@ BCA2-Web-Technology/
     ├── Days-42-43-Department-Website-Project.md ← Multi-page e-commerce website
     └── Days-44-45-E-Book-Project.md             ← Interactive e-book/e-magazine
 ```
+
+---
+
+## 🎓 Classroom Links — Join Here!
+
+| Platform | Link | Details |
+|----------|------|---------|
+| **Google Classroom** | [Join Google Classroom](https://classroom.google.com/c/ODU4MzYxMzU0MTI5?cjc=zxfnnqag) | **Class Code:** `zxfnnqag` — Join to receive announcements, assignment links, and course materials |
+| **GitHub Classroom** | [BCA 2025-26 Sem2 Web Technology](https://classroom.github.com/classrooms/142240674-classroom-bca-2025-26-sem2-web-technology) | Lab assignments are distributed here — you'll get individual repos for each experiment |
+| **Course Repository** | [BCA2-Web-Technology](https://github.com/MandsaurUniversity/BCA2-Web-Technology) | All lecture notes, code examples, and reference materials |
+
+> **💡 How it works:** Your instructor posts assignment links on **Google Classroom**. Each link takes you to **GitHub Classroom**, where you get your own private repository to complete the lab work. See the [Getting Started](#-getting-started) section below for step-by-step instructions.
 
 ---
 
@@ -115,6 +134,7 @@ BCA2-Web-Technology/
 | `2-Content/1-7-Internet-Technology through Web-Forms/` | 45 days of lectures with integrated lab experiments | Students (learning), Instructors (teaching) |
 | `2-Content/8-Self-Study/` | Prerequisite foundational topics | Students (before starting course) |
 | `3-Projects/` (root level) | 2 capstone projects combining all concepts | Students (final assignments) |
+| `4-Lab-Templates/` (root level) | Template repositories for all 30 lab experiments — each folder becomes a GitHub Classroom assignment | Instructors (creating assignments) |
 
 ---
 

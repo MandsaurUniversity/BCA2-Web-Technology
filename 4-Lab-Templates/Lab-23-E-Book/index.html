@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Web Technology — E-Book</title>
+
+    <!-- Bootstrap 5.3.2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== BOOK HEADER ==================== -->
+    <header id="book-header">
+        <h1>Introduction to Web Technology</h1>
+        <p>A Beginner's Guide for BCA Students — Mandsaur University</p>
+    </header>
+
+    <!-- ==================== MAIN CONTAINER ==================== -->
+    <div id="book-container">
+
+        <!-- ========== LEFT SIDEBAR (Chapter List) ========== -->
+        <nav id="sidebar">
+            <ul>
+                <li>
+                    <a href="#" id="link-1" class="active" onclick="showChapter(1); return false;">
+                        Chapter 1: The Internet
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="link-2" onclick="showChapter(2); return false;">
+                        Chapter 2: HTML
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="link-3" onclick="showChapter(3); return false;">
+                        Chapter 3: CSS
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="link-4" onclick="showChapter(4); return false;">
+                        Chapter 4: JavaScript
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="link-5" onclick="showChapter(5); return false;">
+                        Chapter 5: Future of the Web
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- ========== RIGHT CONTENT AREA ========== -->
+        <main id="content-area">
+
+            <!-- Chapter 1 (visible by default) -->
+            <div class="chapter-content active" id="chapter-1">
+                <h2>Chapter 1: The Internet — How It All Began</h2>
+                <!-- TODO: Paste Chapter 1 content from content.md here -->
+                <!-- Each paragraph should be wrapped in <p> tags -->
+            </div>
+
+            <!-- Chapter 2 -->
+            <div class="chapter-content" id="chapter-2">
+                <h2>Chapter 2: HTML — The Language of the Web</h2>
+                <!-- TODO: Paste Chapter 2 content from content.md here -->
+                <!-- Each paragraph should be wrapped in <p> tags -->
+            </div>
+
+            <!-- Chapter 3 -->
+            <div class="chapter-content" id="chapter-3">
+                <h2>Chapter 3: CSS — Making Websites Beautiful</h2>
+                <!-- TODO: Paste Chapter 3 content from content.md here -->
+                <!-- Each paragraph should be wrapped in <p> tags -->
+            </div>
+
+            <!-- Chapter 4 -->
+            <div class="chapter-content" id="chapter-4">
+                <h2>Chapter 4: JavaScript — Adding Life to Web Pages</h2>
+                <!-- TODO: Paste Chapter 4 content from content.md here -->
+                <!-- Each paragraph should be wrapped in <p> tags -->
+            </div>
+
+            <!-- Chapter 5 -->
+            <div class="chapter-content" id="chapter-5">
+                <h2>Chapter 5: The Future of the Web</h2>
+                <!-- TODO: Paste Chapter 5 content from content.md here -->
+                <!-- Each paragraph should be wrapped in <p> tags -->
+            </div>
+
+        </main>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

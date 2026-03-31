@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty — Dept. of Computer Applications, Mandsaur University</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Dept. of Computer Applications</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="faculty.html">Faculty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== PAGE HEADER ==================== -->
+    <section class="bg-primary text-white text-center py-4">
+        <div class="container">
+            <h1>Our Faculty</h1>
+            <p class="lead">Meet our experienced and dedicated teaching staff</p>
+        </div>
+    </section>
+
+    <!-- ==================== FACULTY SECTION ==================== -->
+    <section class="container my-5">
+        <div class="row">
+
+            <!-- TODO: Create a Bootstrap card for each faculty member.
+                 Use col-md-6 or col-lg-4 for the grid layout.
+                 Each card should contain:
+                 - Faculty photo (use placeholder URL from content.md)
+                 - Name and designation
+                 - Qualification
+                 - Specialization
+                 - Experience
+                 - Email
+
+                 Faculty members from content.md:
+
+                 1. Dr. Rajesh Kumar Sharma — Head of Department & Professor
+                    Qualification: PhD (Computer Science), M.Tech
+                    Specialization: Data Mining, Machine Learning
+                    Experience: 18 years
+                    Email: rajesh.sharma@meu.edu.in
+                    Photo: https://placehold.co/200x200?text=Dr.+Rajesh
+
+                 2. Dr. Manoj Gupta — Associate Professor
+                    Qualification: PhD (Information Security), MCA
+                    Specialization: Cyber Security, DBMS
+                    Experience: 14 years
+                    Email: manoj.gupta@meu.edu.in
+                    Photo: https://placehold.co/200x200?text=Dr.+Manoj
+
+                 3. Prof. Sunita Verma — Associate Professor
+                    Qualification: MCA, NET Qualified
+                    Specialization: Software Engineering, UML
+                    Experience: 12 years
+                    Email: sunita.verma@meu.edu.in
+                    Photo: https://placehold.co/200x200?text=Prof.+Sunita
+
+                 4. Prof. Amit Patel — Assistant Professor
+                    Qualification: M.Tech (Cloud Computing)
+                    Specialization: Operating Systems, Cloud Computing
+                    Experience: 8 years
+                    Email: amit.patel@meu.edu.in
+                    Photo: https://placehold.co/200x200?text=Prof.+Amit
+
+                 5. Prof. Neha Joshi — Assistant Professor
+                    Qualification: MCA, Pursuing PhD
+                    Specialization: Data Science, Python
+                    Experience: 6 years
+                    Email: neha.joshi@meu.edu.in
+                    Photo: https://placehold.co/200x200?text=Prof.+Neha
+
+                 6. Prof. Vikram Singh Rathore — Assistant Professor
+                    Qualification: M.Tech (AI/ML)
+                    Specialization: Artificial Intelligence, Machine Learning
+                    Experience: 5 years
+                    Email: vikram.rathore@meu.edu.in
+                    Photo: https://placehold.co/200x200?text=Prof.+Vikram
+
+                 7. Prof. Priya Agarwal — Assistant Professor
+                    Qualification: MCA
+                    Specialization: Web Technologies, Bootstrap
+                    Experience: 4 years
+                    Email: priya.agarwal@meu.edu.in
+                    Photo: https://placehold.co/200x200?text=Prof.+Priya
+
+                 8. Prof. Kavita Dubey — Assistant Professor
+                    Qualification: MCA
+                    Specialization: Software Engineering, Testing
+                    Experience: 3 years
+                    Email: kavita.dubey@meu.edu.in
+                    Photo: https://placehold.co/200x200?text=Prof.+Kavita
+
+                 Example card structure:
+                 <div class="col-md-6 col-lg-4 mb-4">
+                     <div class="card h-100 text-center">
+                         <img src="https://placehold.co/200x200?text=Dr.+Rajesh"
+                              class="card-img-top mx-auto mt-3 rounded-circle"
+                              alt="Dr. Rajesh Kumar Sharma"
+                              style="width: 150px; height: 150px;">
+                         <div class="card-body">
+                             <h5 class="card-title">Dr. Rajesh Kumar Sharma</h5>
+                             <p class="text-muted">Head of Department & Professor</p>
+                             <p><strong>Qualification:</strong> PhD (Computer Science), M.Tech</p>
+                             <p><strong>Specialization:</strong> Data Mining, Machine Learning</p>
+                             <p><strong>Experience:</strong> 18 years</p>
+                             <p><strong>Email:</strong> rajesh.sharma@meu.edu.in</p>
+                         </div>
+                     </div>
+                 </div>
+            -->
+
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>Dept. of Computer Applications</h5>
+                    <p>&copy; 2026 Department of Computer Applications, Mandsaur University. All rights reserved.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+                        <li><a href="courses.html" class="text-white text-decoration-none">Courses</a></li>
+                        <li><a href="faculty.html" class="text-white text-decoration-none">Faculty</a></li>
+                        <li><a href="events.html" class="text-white text-decoration-none">Events</a></li>
+                        <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Contact</h5>
+                    <p>Rewas-Dewda Road, Mandsaur — 458001, MP</p>
+                    <p>
+                        <a href="#" class="text-white me-2">Facebook</a>
+                        <a href="#" class="text-white me-2">Twitter</a>
+                        <a href="#" class="text-white me-2">LinkedIn</a>
+                        <a href="#" class="text-white">YouTube</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

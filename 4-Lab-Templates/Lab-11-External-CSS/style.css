@@ -1,0 +1,104 @@
+/* ==========================================================
+   Lab 11: External CSS Styling
+   Festival Paragraphs — Indian Festivals
+   Web Technology (25BCA060P) | Mandsaur University
+   ========================================================== */
+
+/* --------------------------------
+   Base Styles for the Page
+   -------------------------------- */
+body {
+    /* TODO: Add base styles here */
+    /* Suggested: font-family, margin, padding, background-color */
+}
+
+h1 {
+    /* TODO: Style the main heading */
+    /* Suggested: color, text-align */
+}
+
+/* --------------------------------
+   Common Class for All Festival Paragraphs
+   -------------------------------- */
+.festival-para {
+    /* TODO: Add common paragraph styles */
+    /* Suggested properties:
+       padding: 15px 20px;
+       margin: 15px 0;
+       border-radius: 8px;
+       line-height: 1.8;
+       font-size: 16px;
+    */
+}
+
+/* --------------------------------
+   Individual Festival Styles (IDs)
+   Each festival gets a unique background color
+   -------------------------------- */
+
+/* Diwali — Light Yellow */
+/* #diwali { background-color: #fff8e1; } */
+
+/* Holi — Light Green */
+/* #holi { background-color: #e8f5e9; } */
+
+/* Navratri — Light Pink */
+/* #navratri { background-color: #fce4ec; } */
+
+/* Eid — Light Blue */
+/* #eid { background-color: #e3f2fd; } */
+
+/* Christmas — Light Lavender */
+/* #christmas { background-color: #f3e5f5; } */
+
+/* --------------------------------
+   Text Formatting Classes
+   -------------------------------- */
+
+/* Bold text */
+/* .highlight-bold { font-weight: bold; } */
+
+/* Italic text */
+/* .highlight-italic { font-style: italic; } */
+
+/* Underlined text */
+/* .highlight-underline { text-decoration: underline; } */
+
+/* --------------------------------
+   Text Color Classes
+   -------------------------------- */
+
+/* Red — for "Festival of Lights", "Christmas" */
+/* .text-red { color: #e53935; } */
+
+/* Orange — for "diyas", "rangoli" */
+/* .text-orange { color: #ef6c00; } */
+
+/* Purple — for "Lakshmi Puja", "carol singing" */
+/* .text-purple { color: #7b1fa2; } */
+
+/* Blue — for "Festival of Colors" */
+/* .text-blue { color: #1565c0; } */
+
+/* Green — for "gulal", "Eid-ul-Fitr" */
+/* .text-green { color: #2e7d32; } */
+
+/* Maroon — for "Goddess Durga" */
+/* .text-maroon { color: #800000; } */
+
+/* Crimson — for "Garba", "Dandiya" */
+/* .text-crimson { color: #dc143c; } */
+
+/* --------------------------------
+   Footer Styles
+   -------------------------------- */
+footer {
+    /* TODO: Style the footer */
+    /* Suggested: text-align, margin-top, color */
+}
+
+/* ================================
+   TIP: Uncomment the rules above
+   and add your own values to see
+   the styles applied on the page!
+   ================================ */

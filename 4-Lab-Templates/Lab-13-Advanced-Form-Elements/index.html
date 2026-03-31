@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 13 — Advanced Form Elements | Student Registration</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+    <p><em>Lab Experiment 13 — Web Technology (25BCA060P)</em></p>
+    <hr>
+
+    <!--
+        INSTRUCTIONS:
+        =============
+        1. Build a form with radio buttons, checkboxes, password fields, and buttons.
+        2. Use <fieldset> and <legend> to group related fields.
+        3. Every <input> must have a <label> with a "for" attribute.
+        4. Radio buttons in the same group must share the same "name" attribute.
+        5. Refer to content.md for field specifications and sample data.
+
+        EXAMPLE (Radio Button Group):
+           <fieldset>
+               <legend>Gender:</legend>
+               <input type="radio" id="male" name="gender" value="male">
+               <label for="male">Male</label><br>
+               <input type="radio" id="female" name="gender" value="female">
+               <label for="female">Female</label><br>
+           </fieldset>
+    -->
+
+    <form method="POST" action="#">
+
+        <!-- ============================================ -->
+        <!-- Section 1: Personal Information              -->
+        <!-- ============================================ -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <!-- TODO: Full Name — text input -->
+            <!-- Placeholder: "Enter your full name" -->
+
+            <!-- TODO: Email — email input -->
+            <!-- Placeholder: "Enter your email address" -->
+
+            <!-- TODO: Password — password input -->
+            <!-- Placeholder: "Create a password" -->
+
+            <!-- TODO: Confirm Password — password input -->
+            <!-- Placeholder: "Confirm your password" -->
+
+            <!-- TODO: Date of Birth — date input -->
+
+            <!-- TODO: Phone Number — tel input -->
+            <!-- Placeholder: "+91-XXXXX-XXXXX" -->
+
+        </fieldset>
+
+        <!-- ============================================ -->
+        <!-- Section 2: Gender (Radio Buttons)            -->
+        <!-- ============================================ -->
+        <fieldset>
+            <legend>Gender</legend>
+
+            <!-- TODO: Add radio buttons for Male, Female, Other -->
+            <!-- All must have name="gender" -->
+
+        </fieldset>
+
+        <!-- ============================================ -->
+        <!-- Section 3: Course (Radio Buttons)            -->
+        <!-- ============================================ -->
+        <fieldset>
+            <legend>Course</legend>
+
+            <!-- TODO: Add radio buttons for BCA, BBA, B.Com, B.Sc -->
+            <!-- All must have name="course" -->
+
+        </fieldset>
+
+        <!-- ============================================ -->
+        <!-- Section 4: Hobbies (Checkboxes)              -->
+        <!-- ============================================ -->
+        <fieldset>
+            <legend>Hobbies</legend>
+
+            <!-- TODO: Add checkboxes for: Reading, Coding, Cricket, Music,
+                       Cooking, Travelling, Photography, Gaming -->
+            <!-- All must have name="hobbies" -->
+
+        </fieldset>
+
+        <!-- ============================================ -->
+        <!-- Section 5: Skills (Checkboxes)               -->
+        <!-- ============================================ -->
+        <fieldset>
+            <legend>Skills</legend>
+
+            <!-- TODO: Add checkboxes for: HTML, CSS, JavaScript,
+                       Python, Java, SQL -->
+            <!-- All must have name="skills" -->
+
+        </fieldset>
+
+        <!-- ============================================ -->
+        <!-- Section 6: Terms and Conditions              -->
+        <!-- ============================================ -->
+        <!-- TODO: Add a single checkbox for "I agree to the terms and conditions" -->
+        <!-- This checkbox should be required -->
+
+
+        <!-- ============================================ -->
+        <!-- Section 7: Buttons                           -->
+        <!-- ============================================ -->
+        <!-- TODO: Add Submit button and Reset button -->
+
+    </form>
+
+    <hr>
+    <footer>
+        <p><small>Lab 13 — Advanced Form Elements | Web Technology (25BCA060P) | Mandsaur University</small></p>
+    </footer>
+
+</body>
+</html>

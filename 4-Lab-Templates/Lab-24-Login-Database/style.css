@@ -1,0 +1,29 @@
+/* ============================================================
+   Lab 24: Login System — Custom Styles
+   ============================================================ */
+
+/* ==================== GLOBAL ==================== */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ==================== CENTERED FORM CARD ==================== */
+/* TODO: Center the login/register card on the page */
+/* Hint: Use flexbox on body or a wrapper div */
+/* min-height: 100vh, display: flex, align-items: center, justify-content: center */
+
+.form-card {
+    /* TODO: Style the form card */
+    /* background: white, padding, border-radius, box-shadow */
+}
+
+/* ==================== ERROR/SUCCESS MESSAGES ==================== */
+/* TODO: Style error messages (red) and success messages (green) */
+
+/* ==================== DASHBOARD ==================== */
+/* TODO: Style the dashboard layout */
+/* TODO: Style the user info card */
+
+/* ==================== BUTTONS ==================== */
+/* TODO: Style primary and secondary buttons if needed */

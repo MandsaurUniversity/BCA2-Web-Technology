@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 30 — Bootstrap Form Validation | Mandsaur University</title>
+    <!-- Bootstrap 5.3.2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-2">Student Registration</h2>
+        <p class="text-center text-muted mb-4">Mandsaur University — Fill all required fields to register</p>
+
+        <!-- ============================================================
+             REGISTRATION FORM with Bootstrap Validation
+             Use: needs-validation, novalidate
+             Each field needs: form-label, form-control/form-select
+             Each field needs: valid-feedback and invalid-feedback divs
+             See content.md for all fields, validation rules, and feedback messages
+        ============================================================ -->
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form id="registrationForm" class="needs-validation" novalidate>
+
+                    <!-- TODO: Full Name (text, required, min 3 chars) -->
+                    <!-- valid-feedback: "Looks good!" -->
+                    <!-- invalid-feedback: "Please enter your full name (at least 3 characters)" -->
+
+
+                    <!-- TODO: Email (email, required) -->
+                    <!-- valid-feedback: "Valid email!" -->
+                    <!-- invalid-feedback: "Please enter a valid email address" -->
+
+
+                    <!-- TODO: Phone (tel, required, 10 digits) -->
+                    <!-- valid-feedback: "Valid number!" -->
+                    <!-- invalid-feedback: "Please enter a 10-digit phone number" -->
+
+
+                    <!-- TODO: Date of Birth (date, required) -->
+                    <!-- valid-feedback: "Valid date!" -->
+                    <!-- invalid-feedback: "Please select a valid date of birth" -->
+
+
+                    <!-- TODO: Course (select, required) -->
+                    <!-- Options: see content.md → Course Dropdown Options -->
+                    <!-- valid-feedback: "Course selected!" -->
+                    <!-- invalid-feedback: "Please select a course" -->
+
+
+                    <!-- TODO: Password (password, required, min 8 chars) -->
+                    <!-- valid-feedback: "Strong password!" -->
+                    <!-- invalid-feedback: "Password must be 8+ chars with uppercase and number" -->
+
+
+                    <!-- TODO: Confirm Password (password, required) -->
+                    <!-- valid-feedback: "Passwords match!" -->
+                    <!-- invalid-feedback: "Passwords do not match" -->
+
+
+                    <!-- TODO: Address (textarea, optional, max 200 chars) -->
+                    <!-- invalid-feedback: "Address must be under 200 characters" -->
+
+
+                    <!-- TODO: Terms checkbox (required) -->
+                    <!-- invalid-feedback: "You must agree to the terms and conditions" -->
+
+
+                    <!-- TODO: Submit and Reset buttons -->
+                    <!-- Submit: "Register" (btn btn-success btn-lg) -->
+                    <!-- Reset: "Clear Form" (btn btn-outline-secondary btn-lg) -->
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5.3.2 JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Validation Script -->
+    <script src="script.js"></script>
+</body>
+</html>
