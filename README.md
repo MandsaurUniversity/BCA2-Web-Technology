@@ -78,9 +78,18 @@ BCA2-Web-Technology/
 │       ├── 03-Basic-Programming-Concepts.md
 │       └── 04-Web-Browsers-and-Internet-Usage.md
 │
-└── 📂 3-Projects/                          ← Capstone projects (Days 42–45)
-    ├── Days-42-43-Department-Website-Project.md ← Multi-page e-commerce website
-    └── Days-44-45-E-Book-Project.md             ← Interactive e-book/e-magazine
+├── 📂 3-Projects/                          ← Capstone projects (Days 42–45)
+│   ├── Days-42-43-Department-Website-Project.md ← Multi-page e-commerce website
+│   └── Days-44-45-E-Book-Project.md             ← Interactive e-book/e-magazine
+│
+└── 📂 5-Crash-Course/                      ← Bootstrap + JS Crash Course (Practical Labs)
+    ├── README.md                          ← Course overview & session index
+    ├── Crash-Course-Plan.md               ← 15-session schedule with lab coverage
+    ├── Session-01 through Session-15.md   ← Individual session guides
+    └── website/                           ← Complete reference website
+        ├── index.html                     ← One-page class website (Bootstrap + JS)
+        ├── css/custom.css                 ← Custom theme styles
+        └── js/script.js                   ← All JavaScript functionality
 ```
 
 ---
@@ -125,6 +134,20 @@ BCA2-Web-Technology/
 
 ---
 
+## 🚀 Crash Course Track (New!)
+
+**Starting from Day 12 of the course?** The **Bootstrap + JavaScript Crash Course** offers an accelerated, hands-on path:
+
+- **15 practical lab sessions** (2 hours each)
+- **One cumulative project** — students build "BCA Batch 2025-26 — Our Class Website" from scratch
+- **Covers all 30 lab experiments** from the official curriculum
+- **Progressive learning** — Bootstrap for layout + JavaScript for interactivity, taught together
+- **No prerequisites beyond basic HTML/CSS** — every tag explained on first use
+
+👉 **Start here:** [`5-Crash-Course/README.md`](5-Crash-Course/README.md)
+
+---
+
 ## 📚 What's in Each Folder
 
 | Folder | Purpose | Who Uses It |
@@ -135,6 +158,7 @@ BCA2-Web-Technology/
 | `2-Content/8-Self-Study/` | Prerequisite foundational topics | Students (before starting course) |
 | `3-Projects/` (root level) | 2 capstone projects combining all concepts | Students (final assignments) |
 | `4-Lab-Templates/` (root level) | Template repositories for all 30 lab experiments — each folder becomes a GitHub Classroom assignment | Instructors (creating assignments) |
+| `5-Crash-Course/` | 15-session Bootstrap + JS crash course — students build a one-page class website | Students (hands-on labs), Instructors |
 
 ---
 

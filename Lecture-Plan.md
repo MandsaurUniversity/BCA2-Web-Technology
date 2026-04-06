@@ -208,3 +208,21 @@
 | Lab 28 | Develop a responsive navbar with dropdown menus using Bootstrap for easy navigation on both desktop and mobile devices. | Day 34 |
 | Lab 29 | Create a responsive grid layout using Bootstrap to display a gallery of images, ensuring they adjust appropriately based on screen size. | Day 32 |
 | Lab 30 | Utilize Bootstrap's built-in validation styles and JavaScript functionality to validate a form's input fields. | Day 35 |
+
+---
+
+## 🚀 Alternative Track: Bootstrap + JavaScript Crash Course
+
+> **From Day 12 onwards**, an alternative **practical crash course** is available that focuses exclusively on Bootstrap and JavaScript through a progressive one-page website build.
+
+| Detail | Crash Course Track |
+|--------|-------------------|
+| **Sessions** | 15 practical labs (2 hours each) |
+| **Focus** | Bootstrap 5 + JavaScript (ES5 → ES6+) |
+| **Project** | "BCA Batch 2025-26 — Our Class Website" |
+| **Lab Coverage** | All 30 official lab experiments (100%) |
+| **Prerequisites** | Basic HTML & CSS (covered in Days 1-11) |
+
+👉 **See:** [`5-Crash-Course/README.md`](5-Crash-Course/README.md) for the complete session schedule and materials.
+
+This track is designed for classes that want to maximize hands-on coding time with immediate visual results, while still covering the full lab curriculum.
